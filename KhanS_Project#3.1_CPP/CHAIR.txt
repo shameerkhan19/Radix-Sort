@@ -1,0 +1,223 @@
+final stack :
+xiao
+teng
+edward
+kun
+kar
+joe
+changjie
+anthony
+lawrence
+stefan
+philip
+ryan
+angelo
+maaz
+ahmar
+oliver
+zuoping
+yishi
+casablanca
+yat
+adolfas
+manuel
+stacy
+huan
+jiaxin
+sebastain
+rafael
+zxc
+aabb
+a
+bbaa
+ccaabb
+status after popping all nodes from stack and entering them to hashtable, initialization of hastable phase 1: 
+[0] [0]xiao,teng,edward,kun,kar,joe,changjie,anthony,lawrence,stefan,philip,ryan,angelo,maaz,ahmar,oliver,zuoping,yishi,casablanca,yat,adolfas,manuel,stacy,huan,jiaxin,sebastain,rafael,zxc,aabb,a,bbaa,ccaabb
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[1] [97]casablanca,a,bbaa
+[1] [98]aabb,ccaabb
+[1] [99]zxc
+[1] [100]edward
+[1] [101]joe,changjie,lawrence
+[1] [103]teng,zuoping
+[1] [105]yishi
+[1] [108]manuel,rafael
+[1] [110]kun,stefan,ryan,huan,jiaxin,sebastain
+[1] [111]xiao,angelo
+[1] [112]philip
+[1] [114]kar,ahmar,oliver
+[1] [115]adolfas
+[1] [116]yat
+[1] [121]anthony,stacy
+[1] [122]maaz
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[0] [97]a,bbaa,stefan,ryan,huan,xiao,kar,ahmar,adolfas,yat,maaz
+[0] [98]aabb,ccaabb
+[0] [99]casablanca,lawrence,stacy
+[0] [101]manuel,rafael,oliver
+[0] [104]yishi
+[0] [105]changjie,jiaxin,sebastain,philip
+[0] [108]angelo
+[0] [110]teng,zuoping,anthony
+[0] [111]joe
+[0] [114]edward
+[0] [117]kun
+[0] [120]zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[1] [97]a,maaz,aabb,ccaabb,stacy,rafael,sebastain,edward
+[1] [98]bbaa
+[1] [101]angelo,teng
+[1] [102]stefan,adolfas
+[1] [105]xiao,zuoping
+[1] [106]changjie,joe
+[1] [107]kar,kun
+[1] [108]philip
+[1] [109]ahmar
+[1] [110]casablanca,lawrence
+[1] [111]anthony
+[1] [115]yishi
+[1] [117]huan,manuel
+[1] [118]oliver
+[1] [120]jiaxin
+[1] [121]ryan,yat
+[1] [122]zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[0] [97]a,aabb,ccaabb,casablanca,jiaxin
+[0] [98]bbaa
+[0] [101]stefan,lawrence
+[0] [102]rafael
+[0] [103]angelo,changjie
+[0] [104]ahmar,anthony,huan
+[0] [105]philip,yishi,oliver
+[0] [106]joe
+[0] [107]kar,kun
+[0] [108]adolfas
+[0] [109]maaz
+[0] [110]manuel
+[0] [112]zuoping
+[0] [114]ryan
+[0] [116]stacy,sebastain,teng
+[0] [119]edward
+[0] [120]xiao
+[0] [121]yat
+[0] [122]zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[1] [97]a,aabb,rafael,ahmar,manuel
+[1] [98]bbaa
+[1] [99]ccaabb
+[1] [100]edward
+[1] [104]huan,philip
+[1] [105]jiaxin
+[1] [106]joe
+[1] [107]kar,kun
+[1] [108]casablanca,oliver
+[1] [109]maaz
+[1] [110]angelo,changjie
+[1] [111]adolfas,zuoping
+[1] [114]lawrence,ryan
+[1] [115]stacy,sebastain
+[1] [116]stefan,anthony,teng
+[1] [120]xiao
+[1] [121]yishi,yat
+[1] [122]zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[0] [97]a,aabb,ahmar,angelo,changjie,sebastain
+[0] [98]bbaa,casablanca
+[0] [99]ccaabb
+[0] [100]adolfas
+[0] [101]edward
+[0] [104]huan
+[0] [106]jiaxin,joe
+[0] [107]kar,kun
+[0] [109]manuel,maaz
+[0] [110]anthony
+[0] [111]oliver
+[0] [112]philip
+[0] [114]rafael,ryan
+[0] [115]stacy,stefan
+[0] [116]teng
+[0] [117]zuoping
+[0] [119]lawrence
+[0] [120]xiao
+[0] [121]yishi,yat
+[0] [122]zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[1] [97]a,aabb,ahmar,angelo,casablanca,adolfas,anthony,lawrence
+[1] [98]sebastain,bbaa
+[1] [99]ccaabb
+[1] [101]edward
+[1] [104]changjie,huan
+[1] [106]jiaxin,joe
+[1] [107]kar,kun
+[1] [109]manuel,maaz
+[1] [111]oliver
+[1] [112]philip
+[1] [114]rafael,ryan
+[1] [115]stacy,stefan
+[1] [116]teng
+[1] [120]xiao
+[1] [121]yishi,yat
+[1] [122]zuoping,zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[0] [97]a,aabb,ahmar,angelo,adolfas,anthony
+[0] [98]bbaa
+[0] [99]ccaabb,changjie
+[0] [101]sebastain,edward
+[0] [104]huan
+[0] [106]jiaxin,joe
+[0] [107]kar,kun
+[0] [108]lawrence
+[0] [109]manuel,maaz
+[0] [111]oliver
+[0] [112]philip
+[0] [114]rafael,ryan
+[0] [115]casablanca,stacy,stefan
+[0] [116]teng
+[0] [120]xiao
+[0] [121]yishi,yat
+[0] [122]zuoping,zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[1] [97]a,aabb,ahmar,angelo,adolfas,anthony,casablanca
+[1] [98]bbaa
+[1] [99]ccaabb,changjie
+[1] [101]edward
+[1] [104]huan
+[1] [106]jiaxin,joe
+[1] [107]kar,kun
+[1] [108]lawrence
+[1] [109]manuel,maaz
+[1] [111]oliver
+[1] [112]philip
+[1] [114]rafael,ryan
+[1] [115]sebastain,stacy,stefan
+[1] [116]teng
+[1] [120]xiao
+[1] [121]yishi,yat
+[1] [122]zuoping,zxc
+
+Table so far : 
+(Printing these for Debugging purpose so i can see the changes. Check the bottom for final sorted table) 
+[0] [97]a,aabb,ahmar,angelo,adolfas,anthony,bbaa,ccaabb,changjie,edward,huan,jiaxin,joe,kar,kun,lawrence,manuel,maaz,oliver,philip,rafael,ryan,sebastain,stacy,stefan,teng,xiao,yishi,yat,zuoping,zxc
+[0] [99]casablanca
+
+Final sorted HashTable : 
+[0] [97]a,aabb,ahmar,angelo,adolfas,anthony,bbaa,ccaabb,changjie,edward,huan,jiaxin,joe,kar,kun,lawrence,manuel,maaz,oliver,philip,rafael,ryan,sebastain,stacy,stefan,teng,xiao,yishi,yat,zuoping,zxc
+[0] [99]casablanca
